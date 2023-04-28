@@ -1,0 +1,34 @@
+.MDBContainer {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 400px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.MDBContainer  th{
+    background-color: rgb(36, 119, 187);
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 15px;
+}
+
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tr {
+    border-bottom: 1px solid rgba(36, 68, 109, 0.199);
+}
+
+.content-table tr:nth-of-type(even) {
+    background-color: rgba(134, 134, 134, 0.281);
+}
+
+.content-table tr:last-of-type {
+    border-bottom: 4px solid rgb(36, 119, 187);
+}
+
+
+
